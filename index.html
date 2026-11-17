@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="de"><head><link rel="manifest" href="manifest.json" />
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("pwabuilder-sw.js");
+  }
+</script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Race Control – Rennleitungs-Simulator</title>
 <style>
 :root{--bg:#0b0d12;--p:#141822;--l:#262c3b;--t:#e7eaf2;--m:#8b93a7;--g:#2fbf5b;--y:#f5c518;--o:#ff8a1f;--r:#ff3b30;--b:#5aa0ff}
