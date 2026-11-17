@@ -4,8 +4,8 @@
   "display": "standalone",
   "name": "Race Control Fake",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/Race/",
   "short_name": "RC Fake",
-  "start_url": "/",
+  "start_url": "/Race/index.html",
   "theme_color": "#470000"
 }
