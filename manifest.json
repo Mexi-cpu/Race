@@ -1,0 +1,11 @@
+{
+  "background_color": "#ff0000",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Race Control Fake",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "RC Fake",
+  "start_url": "/",
+  "theme_color": "#470000"
+}
